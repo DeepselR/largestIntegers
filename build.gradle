@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'by'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test{
+    minHeapSize = "128m"
+    maxHeapSize = "4g"
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/junit/junit
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

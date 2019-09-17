@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CommonUtilsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-09-17T10:34:54" hostname="rmartsinovich" time="3.277">
+  <properties/>
+  <testcase name="testNullTopN" classname="CommonUtilsTest" time="0.009"/>
+  <testcase name="testTopN1" classname="CommonUtilsTest" time="0.028"/>
+  <testcase name="testTopN2" classname="CommonUtilsTest" time="3.24"/>
+  <testcase name="testNotUniqueTopN" classname="CommonUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
